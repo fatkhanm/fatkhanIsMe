@@ -136,6 +136,7 @@ $(function(){
 				type: 'post',
 				data: $this.serialize(),
 				success: function(data){
+					console.log(data)
 					
 					if( isJSON(data) ){
 						

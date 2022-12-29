@@ -1421,3 +1421,10 @@ iframe {
 	height:100%;
 	width:100%;
 }
+
+.talk-to-me {
+	margin: 0 auto;
+	display: block;
+	height:60%;
+	width:90%;	
+}
