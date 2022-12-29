@@ -175,7 +175,48 @@ $(function(){
 			});
 		}
 	});
-	
+
+
+	/*=========================================================================
+		Profile
+	=========================================================================*/
+	$('#info-list').on('mouseover',function(e){
+		console.log("jancul")
+		$('#info-list').html('\
+			<img src="fatkahna.jpg" alt>\
+		')
+	})
+
+	$('#info-list').on('mouseout',function(e){
+		$('#info-list').html(
+		'<li>\
+			<strong>Name:</strong>\
+			<span>Fatkhan Masruri</span>\
+		</li>\
+		\
+		<li>\
+			<strong>Age:</strong>\
+			<span>22 Years</span>\
+		</li>\
+		\
+		<!-- <li>\
+			<strong>Last Education:</strong>\
+			<span>Bachelor</span>\
+		</li> -->\
+		\
+		<li>\
+			<strong>Job:</strong>\
+			<span>Software Engineer</span>\
+		</li>\
+		\
+		<li>\
+			<strong>Residence:</strong>\
+			<span>Jakarta, Indonesia</span>\
+		</li>'
+		)
+
+		console.log("kontolll")
+	})
 	
 	
 });
