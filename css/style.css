@@ -262,7 +262,7 @@ body.border-dark .main-content:after{
 	color:#FFF;
 	text-transform:uppercase;
 	font-weight:900;
-	letter-spacing:8px;
+	/* letter-spacing:8px; */
 	font-size:78px;
 }
 .intro-text > p{
@@ -1427,4 +1427,29 @@ iframe {
 	display: block;
 	height:60%;
 	width:90%;	
+}
+
+.intro-text > h1
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #834bc0 0%,
+    #441076 29%,
+    #eee 67%,
+    #eee 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }

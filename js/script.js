@@ -221,7 +221,7 @@ $(function(){
 	
 });
 
-var words = ['Hello! Fatkhan here'],
+var words = ['Hello, Fatkhan here!'],
     part,
     i = 0,
     offset = 0,
